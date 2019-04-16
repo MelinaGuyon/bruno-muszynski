@@ -15,44 +15,37 @@ body.progress {
 }
 
 #app {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  overflow: auto;
-  -webkit-overflow-scrolling: touch;
-
-  &.no-scroll {
-    overflow: hidden;
-    -webkit-overflow-scrolling: auto;
-  }
+  min-height: 100%;
 }
 
 .app {
+  position: relative;
   width: 100%;
-  height: 100%;
+  min-height: 100%;
 }
 
 .pages {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  min-height: 100%;
 }
 
 .page {
   z-index: 1;
-  position: absolute;
-  padding-top: $header-height;
+  position: relative;
   width: 100%;
   min-height: 100%;
 
   > .container {
     position: relative;
     margin: 0 auto;
-    padding: 0 $page-padding;
+    padding: $header-height $page-padding $footer-height;
     max-width: $site-max-width;
     height: 100%;
   }

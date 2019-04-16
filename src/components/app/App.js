@@ -4,6 +4,7 @@ import Router from 'abstract/router/Router';
 import PageManager from 'abstract/Page/PageManager';
 import PreLoader from 'abstract/PreLoader/PreLoader';
 import Header from 'components/header/Header';
+import Footer from 'components/footer/Footer';
 
 require('./App.scss');
 
@@ -99,7 +100,8 @@ class App extends React.Component {
           <PageManager ref='p0'/>
           <PageManager ref='p1'/>
         </div>
-      </div>
+      </div>,
+      <Footer key='footer'/>
     ];
   }
 }

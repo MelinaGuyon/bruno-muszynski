@@ -1,0 +1,20 @@
+@import '~styles/Variables';
+
+.home .conclusion {
+  margin: $section-margin 0 $section-margin * 2;
+  padding: 0 80px;
+  width: 100%;
+
+  .title {
+    margin-bottom: 40px;
+    font-family: 'PxGrotesk-light';
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  .text {
+    font-size: 48px;
+    color: $blue;
+    line-height: 1.46;
+  }
+}
