@@ -19,11 +19,22 @@ header.header {
   .navigation {
     margin-right: -20px;
 
-    a {
-      padding: 20px;
-      font-family: 'PxGrotesk-light';
-      font-size: 12px;
-      text-transform: uppercase;
+    span {
+      a {
+        padding: 20px;
+        font-family: 'PxGrotesk-light';
+        font-size: 12px;
+        text-transform: uppercase;
+        transition: color 0.3s $quad-ease-out;
+
+        &:hover {
+          color: $gray;
+        }
+      }
+
+      &.active a {
+        color: $blue;
+      }
     }
   }
 }
