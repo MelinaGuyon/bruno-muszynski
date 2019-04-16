@@ -16,22 +16,30 @@
 			{
 				"title": "Etape 1:</br>Mon arrivée à l’ENSCI",
 				"text": "Retour sur mon arrivée à l’ENSCI et les motivations qui m’ont poussé à revenir sur les bancs de l’école. De ma rencontre avec le design en néerlandaises aux désillusions de la production, je retrace mon parcours en agence digitale.",
-				"ctaText": "Ecouter l'audio"
+				"ctaText": "Ecouter l'audio",
+				"ctaTextClose": "Fermer",
+				"audio": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/34019569&amp;color=0066cc"
 			},
 			{
 				"title": "Etape 2:</br>Mes obstacles en tant que Producer",
 				"text": "Véritable pont entre client et équipe de production, mon rôle en tant que producteur est d’emmener et fédérer tous les membres du projet. Je reviens sur les freins et obstacles auxquels je suis confronté autant en interne qu’en externe.",
-				"ctaText": "Ecouter l'audio"
+				"ctaText": "Ecouter l'audio",
+				"ctaTextClose": "Fermer",
+				"audio": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/34019569&amp;color=0066cc"
 			},
 			{
 				"title": "Etape 3:</br>La mise en place d’un sprint design",
 				"text": "La mise en place d’une nouvelle approche projet depuis l’identification de retour interne jusqu’à la mise en place d’un sprint design avec l’un de mes clients. Retour sur une transformation par le design.",
-				"ctaText": "Ecouter l'audio"
+				"ctaText": "Ecouter l'audio",
+				"ctaTextClose": "Fermer",
+				"audio": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/34019569&amp;color=0066cc"
 			},
 			{
 				"title": "Etape 4:</br>Mon évolution post-IBD",
 				"text": "Diagnostic sur mon rôle de producteur et des évolutions dans le milieu de l’innovation et le digital. Une analyse des acteurs actuels et des opportunités d’évolutions.",
-				"ctaText": "Ecouter l'audio"
+				"ctaText": "Ecouter l'audio",
+				"ctaTextClose": "Fermer",
+				"audio": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/34019569&amp;color=0066cc"
 			}
 		],
 		"conclusion": {

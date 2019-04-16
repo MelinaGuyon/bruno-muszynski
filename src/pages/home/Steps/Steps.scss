@@ -5,16 +5,19 @@
   width: 100%;
 
   .step {
+    position: relative;
     margin: $section-margin * 2 0;
 
     .content {
       padding: 100px 60px;
       border: 1px solid $black;
+      transition: border 0.3s $quad-ease-out, background 0.3s $quad-ease-out;
 
       .title {
         font-size: 48px;
         color: $blue;
         line-height: 1.25;
+        transition: color 0.3s $quad-ease-out;
       }
 
       .text {
@@ -26,16 +29,77 @@
 
       .button {
         padding: 15px 30px;
+        border: transparent 1px solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         font-family: 'PxGrotesk-light';
         font-size: 12px;
         color: $white;
         text-transform: uppercase;
         background: $black;
+        transition: border 0.3s $quad-ease-out, color 0.3s $quad-ease-out, background 0.3s $quad-ease-out;
+
+        &:hover {
+          border: $black 1px solid;
+          color: $black;
+          background: transparent;
+        }
+
+        .open {
+          opacity: 1;
+          transition: opacity 0.3s $quad-ease-out;
+        }
+
+        .close {
+          position: absolute;
+          opacity: 0;
+          transition: opacity 0.3s $quad-ease-out;
+        }
       }
     }
 
+    .audio-container {
+      position: relative;
+      width: 100%;
+      height: 0;
+      overflow: hidden;
+      transition: height 0.5s $quad-ease-out;
+    }
+
     .audio {
-      display: none;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 300px;
+    }
+
+    &.active {
+
+      .content {
+        background: $blue;
+        border: 1px solid transparent;
+
+        .title {
+          color: $white;
+        }
+
+        .button {
+          .open {
+            opacity: 0;
+          }
+
+          .close {
+            opacity: 1;
+          }
+        }
+      }
+
+      .audio-container {
+        height: 300px;
+      }
     }
   }
 }

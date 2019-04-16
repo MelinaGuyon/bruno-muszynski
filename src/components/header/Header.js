@@ -30,9 +30,9 @@ class Header extends React.Component {
   render () {
     return (
       <header className='header' ref={this.component}>
-        <div className='logo'>
+        <a className='logo' target='_blank' rel="noopener noreferrer" href='https://www.ensci.com/ensci-les-ateliers/'>
           <img src='./images/logo.png'/>
-        </div>
+        </a>
         <div className='navigation'>
           <span data-route='home'><RouterComponent route="home">recherches</RouterComponent></span>
           <span><a href="http://google.com" target='_blank' rel="noopener noreferrer">bibliographie</a></span>
