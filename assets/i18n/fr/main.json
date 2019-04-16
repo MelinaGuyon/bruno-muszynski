@@ -52,5 +52,12 @@
 			"title": "Remerciements",
 			"text": "Inter quos Paulus eminebat notarius ortus in Hispania, glabro quidam sub vultu latens, odorandi vias periculorum occultas perquam sagax. is in Brittanniam missus ut militares quosdam perduceret ausos conspirasse Magnentio, cum reniti non possent, iussa licentius supergressus fluminis modo fortunis conplurium sese repentinus infu."
 		}
+	},
+	"footer": {
+		"social": {
+			"text": "/bruno.muszynski",
+			"link": "https://fr.linkedin.com/in/brunomuszynski"
+		},
+		"thanks": "Designé et codé avec ❤️ par <a href='http://julienlozingue.com' target='_blank'>Julien Lozingue</a> & <a href='https://fr.linkedin.com/in/melina-guyon-488107b5' target='_blank'>Mélina Guyon</a>"
 	}
 }

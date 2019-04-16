@@ -1,9 +1,34 @@
 @import '~styles/Variables';
 
 footer.footer {
+  z-index: 30;
   position: absolute;
   bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: $footer-height;
+  font-size: 14px;
+  color: $white;
   background: $black;
+
+  span {
+    margin: 10px 0;
+
+    img {
+      margin-right: 10px;
+      width: 16px;
+    }
+  }
+
+  a {
+    color: $white;
+    transition: color 0.3s $quad-ease-out;
+
+    &:hover {
+      color: $lightgray;
+    }
+  }
 }
