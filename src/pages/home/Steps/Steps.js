@@ -24,7 +24,6 @@ class Steps extends React.Component {
 
   render () {
     const steps = i18n.localize('home').steps;
-    console.log(steps)
 
     return (
       <div className='steps' ref={this.component}>

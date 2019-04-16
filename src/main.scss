@@ -48,6 +48,12 @@ body.progress {
     padding: $header-height $page-padding $footer-height;
     max-width: $site-max-width;
     height: 100%;
+    opacity: 0;
+    transition: opacity .5s $quad-ease-out;
+
+    &.visible {
+      opacity: 1;
+    }
   }
 }
 
