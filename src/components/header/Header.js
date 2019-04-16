@@ -27,7 +27,8 @@ class Header extends React.Component {
           <img src='./images/logo.png'/>
         </div>
         <div className='navigation'>
-          <RouterComponent route="home">home</RouterComponent>
+          <RouterComponent route="home">recherches</RouterComponent>
+          <a href="http://google.com" target='_blank' rel="noopener noreferrer">bibliographie</a>
           <RouterComponent route="remerciements">remerciements</RouterComponent>
         </div>
       </header>
