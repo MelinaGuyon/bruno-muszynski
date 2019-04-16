@@ -1,4 +1,4 @@
 module.exports = {
   home: require('bundle-loader?lazy!pages/home/Home'),
-  test: require('bundle-loader?lazy!pages/test/Test')
+  remerciements: require('bundle-loader?lazy!pages/remerciements/Remerciements')
 }

@@ -1,0 +1,29 @@
+@import '~styles/Variables';
+
+header.header {
+  z-index: $header-index;
+  position: fixed;
+  padding: 0 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: $header-height;
+  transition: opacity 0s $cubic-ease-out;
+
+  @include mobile {
+    padding: 0 30px;
+    height: $header-mobile-height;
+  }
+
+  .navigation {
+    margin-right: -20px;
+
+    a {
+      padding: 20px;
+      font-family: 'PxGrotesk-light';
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+  }
+}

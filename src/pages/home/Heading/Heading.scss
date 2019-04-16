@@ -1,0 +1,26 @@
+@import '~styles/Variables';
+
+.home .heading {
+  margin: $section-margin 0;
+  padding: 0 120px;
+  width: 100%;
+
+  .subtitle {
+    font-family: 'PxGrotesk-light';
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  .title {
+    margin: 50px 0 30px;
+    font-size: 90px;
+    color: $blue;
+  }
+
+  .text {
+    font-family: 'PxGrotesk-light';
+    font-size: 16px;
+    line-height: 2.25;
+    max-width: 560px;
+  }
+}

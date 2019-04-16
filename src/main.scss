@@ -5,6 +5,7 @@ html,
 body {
   width: 100%;
   height: 100%;
+  font-family: 'PxGrotesk';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -28,6 +29,11 @@ body.progress {
   }
 }
 
+.app {
+  width: 100%;
+  height: 100%;
+}
+
 .pages {
   position: absolute;
   top: 0;
@@ -39,6 +45,30 @@ body.progress {
 .page {
   z-index: 1;
   position: absolute;
+  padding-top: $header-height;
   width: 100%;
   min-height: 100%;
+
+  > .container {
+    position: relative;
+    margin: 0 auto;
+    padding: 0 $page-padding;
+    max-width: $site-max-width;
+    height: 100%;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: $black;
+  text-decoration: none;
+}
+
+a,
+button {
+  cursor: pointer;
+  outline: none;
 }
