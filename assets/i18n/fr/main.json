@@ -6,6 +6,10 @@
 		"keywords": "",
 		"url": ""
 	},
+	"header": {
+		"searchs": "https://brunomuszynski.postach.io/",
+		"bibliography": "https://docs.google.com/document/d/1Ez7KbUaH1UMdipRAYEtZuLvr5Przczi65SlQwcLmkEY/edit?usp=sharing"
+	},
 	"home": {
 		"heading": {
 			"subtitle": "Mémoire Bruno Muszynski",
@@ -18,28 +22,88 @@
 				"text": "Retour sur mon arrivée à l’ENSCI et les motivations qui m’ont poussé à revenir sur les bancs de l’école. De ma rencontre avec le design en néerlandaises aux désillusions de la production, je retrace mon parcours en agence digitale.",
 				"ctaText": "Ecouter l'audio",
 				"ctaTextClose": "Fermer",
-				"audio": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/606888804%3Fsecret_token%3Ds-kw73s&color=%230069cb&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+				"audio": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/606888804%3Fsecret_token%3Ds-kw73s&color=%230069cb&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+				"searchsTitle": "Recherches associées :",
+				"searchs": [
+					{
+						"text": "Introspection personnelle pour mieux choisir mon sujet",
+						"link": "https://brunomuszynski.postach.io/post/memoire-test"
+					},
+					{
+						"text": "Ma (première) définition de la démarche design",
+						"link": "https://brunomuszynski.postach.io/post/la-definition-d-une-demarche-design"
+					},
+					{
+						"text": "Ma posture de chef de projet dans une démarche design",
+						"link": "https://brunomuszynski.postach.io/post/ma-posture-de-chef-de-projet-dans-une-demarche-design"
+					}
+				]
 			},
 			{
 				"title": "Etape 2:</br>Mes obstacles en tant que Producer",
 				"text": "Véritable pont entre client et équipe de production, mon rôle en tant que producteur est d’emmener et fédérer tous les membres du projet. Je reviens sur les freins et obstacles auxquels je suis confronté autant en interne qu’en externe.",
 				"ctaText": "Ecouter l'audio",
 				"ctaTextClose": "Fermer",
-				"audio": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/34019569&amp;color=0066cc"
+				"audio": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/34019569&amp;color=0066cc",
+				"searchsTitle": "Recherches associées :",
+				"searchs": [
+					{
+						"text": "Introspection personnelle pour mieux choisir mon sujet",
+						"link": "https://brunomuszynski.postach.io/post/memoire-test"
+					},
+					{
+						"text": "Ma (première) définition de la démarche design",
+						"link": "https://brunomuszynski.postach.io/post/la-definition-d-une-demarche-design"
+					},
+					{
+						"text": "Ma posture de chef de projet dans une démarche design",
+						"link": "https://brunomuszynski.postach.io/post/ma-posture-de-chef-de-projet-dans-une-demarche-design"
+					}
+				]
 			},
 			{
 				"title": "Etape 3:</br>La mise en place d’un sprint design",
 				"text": "La mise en place d’une nouvelle approche projet depuis l’identification de retour interne jusqu’à la mise en place d’un sprint design avec l’un de mes clients. Retour sur une transformation par le design.",
 				"ctaText": "Ecouter l'audio",
 				"ctaTextClose": "Fermer",
-				"audio": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/34019569&amp;color=0066cc"
+				"audio": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/34019569&amp;color=0066cc",
+				"searchsTitle": "Recherches associées :",
+				"searchs": [
+					{
+						"text": "Introspection personnelle pour mieux choisir mon sujet",
+						"link": "https://brunomuszynski.postach.io/post/memoire-test"
+					},
+					{
+						"text": "Ma (première) définition de la démarche design",
+						"link": "https://brunomuszynski.postach.io/post/la-definition-d-une-demarche-design"
+					},
+					{
+						"text": "Ma posture de chef de projet dans une démarche design",
+						"link": "https://brunomuszynski.postach.io/post/ma-posture-de-chef-de-projet-dans-une-demarche-design"
+					}
+				]
 			},
 			{
 				"title": "Etape 4:</br>Mon évolution post-IBD",
 				"text": "Diagnostic sur mon rôle de producteur et des évolutions dans le milieu de l’innovation et le digital. Une analyse des acteurs actuels et des opportunités d’évolutions.",
 				"ctaText": "Ecouter l'audio",
 				"ctaTextClose": "Fermer",
-				"audio": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/34019569&amp;color=0066cc"
+				"audio": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/34019569&amp;color=0066cc",
+				"searchsTitle": "Recherches associées :",
+				"searchs": [
+					{
+						"text": "Introspection personnelle pour mieux choisir mon sujet",
+						"link": "https://brunomuszynski.postach.io/post/memoire-test"
+					},
+					{
+						"text": "Ma (première) définition de la démarche design",
+						"link": "https://brunomuszynski.postach.io/post/la-definition-d-une-demarche-design"
+					},
+					{
+						"text": "Ma posture de chef de projet dans une démarche design",
+						"link": "https://brunomuszynski.postach.io/post/ma-posture-de-chef-de-projet-dans-une-demarche-design"
+					}
+				]
 			}
 		],
 		"conclusion": {

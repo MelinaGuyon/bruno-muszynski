@@ -12,8 +12,14 @@ class Steps extends React.Component {
     step.classList.toggle('active');
   }
 
-  renderStep = (step, index) => {
+  renderList = (item, index) => {
+    console.log(item)
+    return [
+      <li key={index}><a href={item.link} target='_blank' rel="noopener noreferrer">- {item.text}</a></li>
+    ]
+  }
 
+  renderStep = (step, index) => {
     return [
       <div className='step' key={index}>
         <div className='content'>
@@ -28,6 +34,12 @@ class Steps extends React.Component {
         <div className='audio-container'>
           <div className='audio'>
             <iframe width="100%" height="166" scrolling="no" frameBorder="no" src={step.audio}></iframe>
+          </div>
+          <div className='searchs'>
+            <span className='title'>{step.searchsTitle}</span>
+            <ul>
+              {map(step.searchs, this.renderList)}
+            </ul>
           </div>
         </div>
       </div>
