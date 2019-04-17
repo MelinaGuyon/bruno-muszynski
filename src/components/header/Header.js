@@ -31,7 +31,7 @@ class Header extends React.Component {
     return (
       <header className='header' ref={this.component}>
         <a className='logo' target='_blank' rel="noopener noreferrer" href='https://www.ensci.com/ensci-les-ateliers/'>
-          <img src='./images/logo.png'/>
+          <img src='./images/logo.svg' />
         </a>
         <div className='navigation'>
           <span data-route='home'><RouterComponent route="home">recherches</RouterComponent></span>
