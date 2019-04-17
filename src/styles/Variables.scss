@@ -31,10 +31,13 @@ $circ-ease-in-out: cubic-bezier(.785, .135, .15, .86);
 // global
 $site-max-width: 1260px;
 $page-padding: 50px;
+$page-padding-mobile: 30px;
 $section-margin: 50px;
+$section-margin-mobile: 28px;
 $header-height: 170px;
 $footer-height: 230px;
-$header-mobile-height: 150px;
+$header-height-mobile: 150px;
+$footer-height-mobile: 200px;
 
 // index
 $header-index: 10;

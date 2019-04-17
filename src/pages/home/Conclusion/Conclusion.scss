@@ -5,16 +5,30 @@
   padding: 0 80px;
   width: 100%;
 
+  @include mobile {
+    margin: $section-margin-mobile 0 $section-margin-mobile * 2;
+    padding: 0;
+  }
+
   .title {
     margin-bottom: 40px;
     font-family: 'PxGrotesk-light';
     font-size: 14px;
     text-transform: uppercase;
+
+    @include mobile {
+      margin-bottom: 30px;
+    }
   }
 
   .text {
     font-size: 48px;
     color: $blue;
     line-height: 1.46;
+
+    @include mobile {
+      font-size: 24px;
+      line-height: 1.76;
+    }
   }
 }

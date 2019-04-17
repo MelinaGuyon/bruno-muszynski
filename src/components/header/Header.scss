@@ -13,7 +13,7 @@ header.header {
 
   @include mobile {
     padding: 0 30px;
-    height: $header-mobile-height;
+    height: $header-height-mobile;
   }
 
   img {
@@ -23,6 +23,13 @@ header.header {
   .navigation {
     margin-right: -20px;
 
+    @include mobile {
+      margin-right: -5px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+
     span {
       a {
         padding: 20px;
@@ -31,6 +38,10 @@ header.header {
         text-transform: uppercase;
         transition: color 0.3s $quad-ease-out;
 
+        @include mobile {
+          padding: 5px;
+        }
+
         &:hover {
           color: $gray;
         }
@@ -38,6 +49,10 @@ header.header {
 
       &.active a {
         color: $blue;
+      }
+
+      @include mobile {
+        margin: 5px 0;
       }
     }
   }

@@ -5,6 +5,11 @@
   padding: 0 120px;
   width: 100%;
 
+  @include mobile {
+    margin: $section-margin-mobile 0;
+    padding: 0;
+  }
+
   .subtitle {
     font-family: 'PxGrotesk-light';
     font-size: 14px;
@@ -15,6 +20,11 @@
     margin: 50px 0 30px;
     font-size: 100px;
     color: $blue;
+
+    @include mobile {
+      margin: 30px 0;
+      font-size: 50px;
+    }
   }
 
   .text {
@@ -22,5 +32,10 @@
     font-size: 16px;
     line-height: 2.25;
     max-width: 560px;
+
+    @include mobile {
+      font-size: 14px;
+      max-width: 80%;
+    }
   }
 }

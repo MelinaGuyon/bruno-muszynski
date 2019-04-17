@@ -8,16 +8,29 @@
     position: relative;
     margin: $section-margin * 2 0;
 
+    @include mobile {
+      margin: $section-margin-mobile * 2 0;
+    }
+
     .content {
       padding: 100px 60px;
       border: 1px solid $black;
       transition: border 0.3s $quad-ease-out, background 0.3s $quad-ease-out;
+
+      @include mobile {
+        padding: 50px 30px;
+      }
 
       .title {
         font-size: 48px;
         color: $blue;
         line-height: 1.25;
         transition: color 0.3s $quad-ease-out;
+
+        @include mobile {
+          font-size: 30px;
+          line-height: 1.35;
+        }
       }
 
       .text {
@@ -25,6 +38,10 @@
         font-family: 'PxGrotesk-light';
         font-size: 16px;
         line-height: 2.25;
+
+        @include mobile {
+          max-width: 85%;
+        }
       }
 
       .button {
@@ -40,7 +57,7 @@
         background: $black;
         transition: border 0.3s $quad-ease-out, color 0.3s $quad-ease-out, background 0.3s $quad-ease-out;
 
-        &:hover {
+        .desktop &:hover {
           border: $black 1px solid;
           color: $black;
           background: transparent;
@@ -74,6 +91,10 @@
       align-items: center;
       width: 100%;
       height: 300px;
+
+      @include mobile {
+        height: 230px;
+      }
     }
 
     &.active {
@@ -99,6 +120,10 @@
 
       .audio-container {
         height: 300px;
+
+        @include mobile {
+          height: 230px;
+        }
       }
     }
   }

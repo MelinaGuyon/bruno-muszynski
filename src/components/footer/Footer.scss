@@ -12,9 +12,16 @@ footer.footer {
   height: $footer-height;
   font-size: 14px;
   color: $white;
+  text-align: center;
   background: $black;
 
+  @include mobile {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
   span {
+    max-width: 50%;
     margin: 10px 0;
 
     img {
